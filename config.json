@@ -1,9 +1,16 @@
 {
-  "postgresConnection": {
-    "user": "userName",
-    "host": "hostname",
-    "database": "dbname",
-    "password": "password",
+  "postgresConnectionTabular": {
+    "user": "postgres",
+    "host": "127.0.0.1",
+    "database": "tabular",
+    "password": "",
+    "port": 5432
+  },
+  "postgresConnectionWeblive": {
+    "user": "postgres",
+    "host": "127.0.0.1",
+    "database": "weblive",
+    "password": "",
     "port": 5432
   },
   "emailSMTPServer": "smtp.xxx",
